@@ -1,5 +1,25 @@
+# Libraries used in the labs (Google Colab / Codespaces / any pip environment).
+# Colab already ships most of them; this file only adds what is missing.
+# Usage in a notebook:  !pip install -q -r https://raw.githubusercontent.com/ababacaryoro/nlp-course/main/requirements.txt
 numpy
 pandas
-nltk
+pyarrow
+matplotlib
+seaborn
 scikit-learn
-spacy
+requests
+tqdm
+nltk
+spacy>=3.8
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+wordcloud
+pillow
+gensim
+torch
+transformers
+sentence-transformers
+datasets>=3.0
+huggingface-hub
+fsspec
+ipywidgets
+gradio

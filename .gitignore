@@ -2,6 +2,12 @@
 # Grades
 grade.*
 submissions/
+assignments/**/submissions*/
+
+# Autres 
+slides/
+exams/
+_private/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
